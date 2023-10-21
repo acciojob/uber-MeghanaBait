@@ -63,7 +63,7 @@ public class CustomerServiceImpl implements CustomerService {
 		}
 
 		if (driver == null){
-			throw new NoCabAvaliableException("Cab is Unavailable");
+			throw new NoCabAvaliableException("No cab available!");
 		}
 
 		Optional<Customer> optionalCustomer = customerRepository2.findById(customerId);
