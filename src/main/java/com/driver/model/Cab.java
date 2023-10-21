@@ -1,7 +1,5 @@
 package com.driver.model;
 
-import io.swagger.models.auth.In;
-
 import javax.persistence.*;
 
 @Entity
@@ -28,11 +26,11 @@ public class Cab{
         this.driver = driver;
     }
 
-    public Integer getCabId() {
+    public Integer getId() {
         return cabId;
     }
 
-    public void setCabId(Integer cabId) {
+    public void setId(Integer cabId) {
         this.cabId = cabId;
     }
 

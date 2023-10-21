@@ -43,11 +43,11 @@ public class Customer{
         this.customerId = customerId;
     }
 
-    public String getMobileNo() {
+    public String getMobile() {
         return mobileNo;
     }
 
-    public void setMobileNo(String mobileNo) {
+    public void setMobile(String mobileNo) {
         this.mobileNo = mobileNo;
     }
 
